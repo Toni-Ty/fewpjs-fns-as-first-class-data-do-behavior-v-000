@@ -7,7 +7,7 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-function greet(time) {
+function greet(timeString) {
 	let timeArray = time.split(":")
 	let hour = parseFloat(timeArray[0])
 	if (hour === NaN) {
